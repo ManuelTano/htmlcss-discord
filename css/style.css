@@ -38,6 +38,7 @@ nav {
     
     background-image: url(../img/logo.svg);
     width: 124px;
+    height: 34px;
 }
 
 .menu {
@@ -45,22 +46,27 @@ nav {
     width: 50%;
     text-decoration: none;
     padding-right: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
     
 }
 
 a {
     text-decoration: none;
     color: white;
-    padding-left: 50px;
+    
 }
 
 .button {
     background-color: white;
-    border: 1px solid white;
-    border-radius: 40%;
-    color: black;
+    border-radius: 25%;
     padding: 10px 10px;
     font-weight: 100;
+}
+
+#text-black{
+    color: black;
 }
 
 .text {
@@ -71,13 +77,21 @@ a {
     padding: 10px 10px;
 }
 
+.black{
+    background-color: #23272A;
+}
+
+#text-white
+{
+    color: white;
+}
 h1{
     font-size: 60px;
 }
 
 p{
     line-height: 30px;
-    font-size: 17px;
+    font-size: 21px;
 }
 
 .pulsanti {
@@ -90,8 +104,8 @@ p{
 
 .big-button {
     background-color: white;
-    border: 1px solid white;
-    border-radius: 40%;
+    
+    border-radius: 25%;
     color: black;
     padding: 10px 10px;
     font-weight: 100;
@@ -174,21 +188,36 @@ h2 {
     font-size: 30px;
 }
 
+.violet{
+    background-color: #8EA1E1;
+}
+
 /* FOOTER */
 
+h3 {
+    font-size: 25px;
+    color: #7289DA
+}
+
+h4{
+    
+    font-size: 17px;
+}
+
+.viola {
+    color: #7289DA;
+}
 .black{
     background-color: #23272A;
 }
 
 .col60{
-    width: 34%;
-    background-color: #7289DA;
+    width: 34%; 
     height: 100px;   
 }
 
 .col{
     width: 15%;
-    background-color: #7289DA;
     height: 200px;
     margin-left: 20px;
 }
@@ -198,6 +227,8 @@ h2 {
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
+    color: white;
+    border-bottom: #7289DA;
 }
 
 .last-row{
@@ -206,4 +237,9 @@ h2 {
     justify-content: space-between;
     width: 100%;
     text-align: center;
+}
+
+#ita{
+    height: 20px;
+    width: 30px;
 }
