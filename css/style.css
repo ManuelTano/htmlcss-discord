@@ -120,15 +120,16 @@ section {
 
 .column-image, .image{
     width: 60%;
-    background-color: #292841;
+    margin-top: 25px;
     height: 600px;
     margin-left: 25px;   
 }
 
 .column-description, .description{
     width: 40%;
-    background-color: coral;
+    
     margin-left: 25px;
+    padding: 20px 20px;
 }
 
 .white{
