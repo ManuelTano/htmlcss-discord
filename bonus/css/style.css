@@ -170,6 +170,10 @@ section {
     padding: 20px 20px;
 }
 
+svg{
+    display: block;
+}
+
 .white{
     background-color: white;
 }
